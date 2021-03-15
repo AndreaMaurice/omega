@@ -1,0 +1,117 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  font-weight: 700;
+}
+
+a{
+  color: darkgoldenrod !important;
+}
+a:hover{
+    text-decoration: none;
+}
+/* Main Cover */
+.main {
+  background: linear-gradient(180deg, rgb(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./assets/pexels-kai-pilger-534757.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  margin-block: 100px 200px;
+  margin-inline: 300px;
+  padding: 20px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 0, 0.171),
+    rgb(141, 101, 14)
+  );
+}
+
+/* End Cover */
+
+/* Main About */
+.about-text {
+  padding: 50px;
+  box-shadow: 1px 1px 10px rgb(100, 100, 100);
+  border-radius: 10px;
+}
+
+.about-logo {
+  text-align: center;
+}
+/* End About */
+
+/* Search */
+.search-con{
+    border-radius: 50px;
+}
+.search input,
+.search select, .sub-button {
+  border: none;
+  text-align: center;
+}
+
+.center{
+    margin-inline: 10px;
+}
+
+.submit-btn{
+  height: 20px;
+}
+
+.search-con{
+  margin-bottom: 100px;
+}
+/* End Search */
+
+/* Game */
+.game{
+    display: block;
+}
+.level img, .download{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.levels{
+    text-align: center;
+}
+
+.level h4{
+    margin-top: 10px;
+}
+
+.level{
+    box-shadow: 1px 1px 10px rgb(100, 100, 100) inset;
+    border-radius: 25px;
+    padding: 10px;
+}
+/* End Game */
+
+/* Foot */
+footer{
+    position: absolute;
+    bottom: 0px;
+}
+.foot-menu{
+  display: block;
+  text-align: center;
+}
+.foot-links{
+  display: block;
+}
+
+/* End Foot */
