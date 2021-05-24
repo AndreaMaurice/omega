@@ -1,9 +1,9 @@
 <?php
   // Yung database lang babaguhin nyo dito
-  $server = "localhost";
-  $username = "root";
-  $password = ""; // kung wala kayong sinet na pw, leave this as it is 
-  $database = "bible"; // ilagay kung ano yung database name nyo
+  $server = "us-cdbr-east-03.cleardb.com";
+  $username = "b2fcadf0dbd754";
+  $password = "c261000a"; // kung wala kayong sinet na pw, leave this as it is 
+  $database = "heroku_54f5e8ef0cc9865"; // ilagay kung ano yung database name nyo
 
   // eto yung magtatry na magconnect ng database nyo sa file nyo, yung pagkakasunod sunod nung nasa parenthesis dapat di mabago
   $conn = mysqli_connect($server, $username, $password, $database);
