@@ -85,10 +85,10 @@
                                 </select>
                                 <input class="mx-1" type="number" max="150" min="1" name="chapter" placeholder="Chapter">
                                 <input class="mx-1" type="number" max="176" min="1" name="versecount" placeholder="Verse">
-                                <button type="submit" class="btn btn-light btn-sm mx-1" name="search">Submit</button>
+                                <button type="submit" class="btn btn-light btn-sm mx-1" name="search"><a href="#verse" style="text-decoration: none">Submit</a></button>
                             </form>
             </div>
-            <div class="results text-center">
+            <div class="results text-center" id="verse">
                 <?php 
                      include_once('sql-search.php');
                 ?>
